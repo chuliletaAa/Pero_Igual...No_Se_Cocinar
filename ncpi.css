@@ -62,6 +62,7 @@ nav{
 	width:80%;
 	height:auto;
 	justify-content:space-evenly;
+	text-align:center;
 }
 
 nav a:link, nav a:visited{
@@ -454,6 +455,35 @@ h3{
 	font-size:18px;
 	margin-bottom:50px;
 }
+.yoo{
+	display:flex;
+	width:100%;
+	height:auto;
+	justify-content: space-evenly;
+	color: #005F73;
+	font-family: "Billionary Personal Use Only", cursive;
+	margin-bottom: 10px;
+	align-items: center;
+}
+.fotito{
+	width:20%;
+	height:auto;
+}
+.fotito img{
+	border-radius:50%;
+}
+.quiensoy{
+	width:50%;
+	height:auto;
+	
+}
+div.primaria img {
+    display: block !important;
+}
+
+div.secundaria img {
+    display: none !important;
+}
 
 /*---------------------FOOTER-----------------------------*/
 footer{
@@ -532,9 +562,9 @@ footer{
 	color:#46788C
 }
 
-/* RESPONSIVE */
+/* _______________________RESPONSIVE______________________ */
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
 
 header{
 	display: flex;
@@ -594,7 +624,7 @@ header{
 	.receta{
 		width:90%;
 		height:auto;
-		text-align:center;
+		
 	}
 		
 .reseñas-intro, .reseñas-lista, .deja-reseña{
@@ -602,9 +632,30 @@ header{
 	height:auto;
 }
 
-.recetas2{
+.recetas2 h3{
 	text-align:center;
 }
+	div.primaria img {
+        display: none !important;
+    }
+    
+    div.secundaria img {
+        display: block !important;
+    }
+	
+.yoo{
+	display:flex;
+	flex-direction: column;
+}
+.quiensoy, .fotito{
+	width:80%;
+	height:auto;
+	text-align:justify;
+}
+.fotito{
+	text-align:center;
+}
+	
 
 footer{
 	display:flex;

@@ -114,6 +114,7 @@ nav{
 	width:80%;
 	height:auto;
 	justify-content:space-evenly;
+	text-align:center;
 }
 
 nav a:link, nav a:visited{
