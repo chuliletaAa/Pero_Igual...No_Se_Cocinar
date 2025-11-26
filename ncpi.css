@@ -13,6 +13,10 @@ body{
   src: url("fuentes/AtemicaSans_PERSONAL_USE_ONLY.otf");
 }
 
+@font-face {
+  font-family: "Still Stronger";
+  src: url("fuentes/Still Stronger.otf");
+}
 /*------- HEADER --------*/
 
 header{
@@ -159,6 +163,7 @@ button a:hover{
 		flex-direction:column;
 		width:100%;
 		height:auto;
+		margin-top:20px;
 	}
 	.construccion img{
 		height:auto;
@@ -177,13 +182,37 @@ button a:hover{
 	justify-content:center;
 	padding:2%;
 }
+.video{	
+  width: 35%;
+  background-color: #c5e3d9;
+  padding: 1%;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-left:20px;
+  flex-direction: column;
+  height:auto;
+}
+.video h3{
+	font-family:"Still Stronger";
+	color:#BB3E03;
+	letter-spacing: 2px; 
+}
 
+.videos{
+	width:100%;
+	height:300px;
+}
 .padre{
 	display:flex;
 	width:94%;
 	height:auto;
 	padding:2%;
 	justify-content:center;
+	flex-wrap:wrap;
 }
 .receta{
   width: 25%;
@@ -230,7 +259,7 @@ margin-bottom:0px;
 	font-family: "Billionary Personal Use Only";
 }
 .recetas2 li, ol, ul{
-	font-family: AtemicaSans_PERSONAL_USE_ONLY;
+	font-family: "Billionary Personal Use Only";
 	margin-bottom:10px;
 }
 /*--------------HABLEMOS-----------------*/
@@ -252,7 +281,7 @@ margin-bottom:0px;
 	width:100%;
 	height:auto;
 }
-.reseña.mostrar p{
+.reseña.mostrar, .intro p{
 	font-family: Billionary Personal Use Only;
 }
 
